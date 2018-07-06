@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add -D babel babel-cli babel-preset-env
+
+PATH: 
+  /home/quyetdv4local/bin:/home/quyetdv4local/.local/bin:/home/quyetdv4local/bin:/home/quyetdv4local/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  6.14.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: unable to verify the first certificate
+      at Error (native)
+      at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+      at emitNone (events.js:86:13)
+      at TLSSocket.emit (events.js:185:7)
+      at TLSSocket._finishInit (_tls_wrap.js:609:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+
+npm manifest: 
+  {
+    "name": "mongodb-migration-node-script",
+    "version": "1.0.0",
+    "description": "",
+    "main": "node.js",
+    "scripts": {
+      "start": "nodemon --exec babel-node --presets=env --",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
